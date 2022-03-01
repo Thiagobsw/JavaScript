@@ -1,0 +1,189 @@
+JavaScript
+
+variaveis
+var n1 = 1
+len n2 = 2
+
+
+alert('texto')
+confirm('Texto')
+pronpt('entrada de dados') // pode ser atribuida a uma variavel
+var text = pronpt('digite algo') // o item digitado sera atribuido a text
+
+
+para mudar um numero para string
+alert(String(n1))
+
+para comutar strings na frase
+alert(`a soma entre ${n1} e ${n2} é igual a ${s}`)
+
+###############Tratamento#######################
+var s = `JavaScript`
+s.length        // mostrara quantas letras tem a variavel
+s.toUpperCase() // tudo para MAIUSCULAS
+S.toLowerCase() // tudo para minusculas
+document.write(`Seu nome é <strong>${s}</strong>` // strong deixa a variavel , ou atring em negrito
+n1.toFixed(2) //o numero com duas casas decimais '1.00'
+n1.toFixed(2).replace('.',',') // troca o ponto por virgula
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL' //'R$ 1.00 transforma em moeda
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'
+
+#################Operadores#####################Aula7#####
+
+// operadores aritimeticos
++ soma
+- subtrair
+* multiplicaçao
+/ divisão
+% resto da divisão
+** potencia
+
+5+2=7
+5-2=3
+5/2=2.5
+5%2=1
+5**2=25
+
+quando usamos operadores aritimeticos  temos o predecencia
+()     sempre fara por primeiro
+**	   segundo
+* / %  terceiro
++ -    quarto
+ Auto-atribuição
+var n = 3
+n = n + 4  - n += 4
+n = n - 5    n -= 5
+n *= 4
+n /= 2
+n **= 2
+n %= 2
+
+Incr2mento
+ var x = 5
+ x = x + 1  pode ser x++
+ x = x - 1 pode ser x--
+ 
+ Relacionais
+< menor que
+> maior que
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+5>2 true
+7<4 false
+8>=8 true
+9<=7 false
+5==5 true
+4!=4 false
+5=='5' true // se forem iguais mesmo que o tipo for diferente
+5==='5' false // quando tem tres iguais tem que ser do mesmo tipo,
+
+
+LOgicos 
+! negação
+&& conjunção 
+operador binario
+true&&true = true
+true&&false = false
+false$$true = false
+false&&false = false
+
+|| disjunção
+true||true = true
+true||false = true
+false||true = true
+false||false = false
+
+
+precedencia
+() ** / primeiro
+> < >= segundo
+!       terceiro
+&&      quarto
+||      quinto
+
+ternoria
+teste? true : false
+media>=7.0 ? 'aprovado': 'reprovado'
+
+var x = 8
+var res = x % 2 == 0 ? 'par' : 'impar'
+
+
+###############DOM###############
+Arvore DOM
+------Window------
+Location document history
+          html
+head              body
+meta title        h1 p p div
+						strong
+
+
+
+
+
+Selecionando 
+Por Marca
+getElementsByTagName()
+por ID
+getElementsByTagId
+por Nome
+getElementsByTagMane()
+por classe
+getElementsByTagClasse()
+por seletor
+querySelector()
+
+#######modulo D#######
+Condiçoes simples
+condições compostas
+condicções alinhadas
+condições multiplas
+
+Node JS
+console.log('string')
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
